@@ -34,26 +34,24 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
+        text: 'Vue JS',
+        link: '/vuejs/',
       },
       {
-        text: 'Config',
-        link: '/config/'
+        text: 'React Js',
+        link: '/reactjs/'
       },
-      {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
-      }
+      
     ],
     sidebar: {
-      '/guide/': [
+      '/vuejs/': [
         {
-          title: 'Guide',
+          title: 'Vue JS',
           collapsable: false,
           children: [
             '',
             'using-vue',
+            'css'
           ]
         }
       ],
