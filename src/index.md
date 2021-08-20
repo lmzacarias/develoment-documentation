@@ -11,5 +11,5 @@ features:
   details: Guia para el desarrollo FrondEnd con el Framework React Js
 - title: Documentación Node Js
   details: Guia para el desarrollo FrondEnd con el Framework Node Js
-footer: Copyright © 2021 Luis Miguel Zacarias Sánchez
+footer: Copyright © 2021 Luis Miguel Zacarias
 ---

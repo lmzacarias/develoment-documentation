@@ -34,27 +34,55 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Vue JS',
+        text: 'Vue Js',
         link: '/vuejs/',
       },
       {
         text: 'React Js',
         link: '/reactjs/'
       },
+      {
+        text: 'Util',
+        link: '/utiljs/'
+      },
       
     ],
     sidebar: {
       '/vuejs/': [
         {
-          title: 'Vue JS',
+          title: 'Vue',
           collapsable: false,
           children: [
             '',
-            'using-vue',
-            'css'
+            'estructura'
           ]
         }
       ],
+
+      '/reactjs/': [
+        {
+          title: 'React',
+          collapsable: false,
+          children: [
+            '',
+            'first'
+          ]
+        }
+      ],
+      
+      '/utiljs/': [
+        {
+          title: 'Util',
+          collapsable: false,
+          children: [
+            '',
+            'console',
+            'eslint',
+            'markdown' 
+          ]
+        }
+      ],
+      
     }
   },
 
@@ -64,5 +92,9 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
+    '@vuepress/plugin-register-components',
+    '@vuepress/plugin-active-header-links',
+    '@vuepress/plugin-search',
+    '@vuepress/plugin-nprogress'
   ]
 }
